@@ -1,6 +1,6 @@
 
 /*
-* this is tetst programm about cats,
+* this is test program about cats,
 * using cod conventions.
 */
 
