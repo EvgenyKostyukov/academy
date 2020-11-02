@@ -7,28 +7,12 @@ public class Task5 {
 
     static int pairs(int k, int[] arr) {
         int pairsCount = 0;
-/**
- * это мой говнокод, который не работает... мы прошли базовые темы про циклы
- * массивы и условные операторы и якобы здесь нужно простенький код написать,
- * чтоб программа заработала, но я все форуму пересмотрел, перепробовал
- * много и попал в отчаяние безуспешное.
- *
- *
-        int first = 0;
-        int last = arr.length - 1;
-        while (first < last) {
-            int s = arr[first] + arr[last];
-            if (s == k) {
-                System.out.println(arr[first] + " " + arr[last]);
-                first++;
-                last--;
-            } else {
-                if (s < k) first++;
-                else last--;
-            }
 
-        }
- */
+
+
+
+
+
         return pairsCount;
     }
 
