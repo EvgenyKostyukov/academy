@@ -1,31 +1,25 @@
-
 /*
-* comments
-* this is test program about cats,
-* using cod conventions.
-*/
+ * comments
+ * this is test program about cats,
+ * using cod conventions.
+ */
 
-package by.academy.homework.homework1;
+package by.academy.homework1_Part2;
 
 public class Application {
     public static void main(String[] args) {
 
         System.out.println();
         Cat cat = new Cat();
-        Cat cat2 = new Cat();
+        Cat cat2 = new Cat("Barsik");
 
         System.out.println("Первый кот без клички: " + cat.nickname);
-        System.out.println("У второго кота кличка: " + cat2.myNickname);
+        System.out.println("У второго кота кличка: " + cat2.nickname);
         System.out.println();
 
-        cat.sleep();
-        cat.eat();
-        cat.walk();
-        System.out.println();
-
-        cat.sleep1();
-        cat.eat1();
-        cat.walk1();
+        cat2.eat();
+        cat2.sleep();
+        cat2.walk();
         System.out.println();
 
         cat.grow(1);
