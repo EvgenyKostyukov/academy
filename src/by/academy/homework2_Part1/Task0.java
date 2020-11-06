@@ -1,18 +1,22 @@
-package by.academy.homework2;
+package by.academy.homework2_Part1;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Task5 {
+public class Task0 {
 
     static int pairs(int k, int[] arr) {
         int pairsCount = 0;
 
-
-
-
-
-
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] - arr[j] == k  ) {
+                    //System.out.println(arr[i] + " " + arr[j]);
+                    pairsCount++;
+                }
+            }
+        }
+        System.out.println(pairsCount);
         return pairsCount;
     }
 
@@ -32,11 +36,11 @@ public class Task5 {
 
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(arrItems[i]);
-            System.out.println(arr[i]);
+            //System.out.println(arr[i]);
         }
 
         int result = pairs(k, arr);
-        System.out.println(result);
+        //System.out.println(result);
 
         scanner.close();
     }
