@@ -10,7 +10,7 @@ public class Task0 {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                if (arr[i] - arr[j] == k  ) {
+                if (arr[i] - arr[j] == k) {
                     //System.out.println(arr[i] + " " + arr[j]);
                     pairsCount++;
                 }
