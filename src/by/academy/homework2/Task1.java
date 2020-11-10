@@ -1,4 +1,4 @@
-package by.academy.homework2_Part1;
+package by.academy.homework2;
 
 import java.util.*;
 import java.lang.*;

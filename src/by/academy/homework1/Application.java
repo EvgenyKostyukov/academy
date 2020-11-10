@@ -4,7 +4,7 @@
  * using cod conventions.
  */
 
-package by.academy.homework1_Part2;
+package by.academy.homework1;
 
 public class Application {
     public static void main(String[] args) {

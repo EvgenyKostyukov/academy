@@ -1,6 +1,6 @@
 // test comment
 
-package by.academy.homework1_Part2;
+package by.academy.homework1;
 
 public class Cat {
 

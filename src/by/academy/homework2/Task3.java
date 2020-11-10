@@ -1,4 +1,4 @@
-package by.academy.homework2_Part1;
+package by.academy.homework2;
 
 import java.util.Scanner;
 
@@ -21,8 +21,8 @@ public class Task3 {
 //        StringBuffer str3 = new StringBuffer();
 //        StringBuffer str4 = new StringBuffer();
 //
-//        str3.append("МОЛОКО");
-//        str4.append("ВЕРОЯТНО");
+//        str3.append("петя");
+//        str4.append("саша");
 //
 //        int l3 = str3.length();
 //        int l4 = str4.length();

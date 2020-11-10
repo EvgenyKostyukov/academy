@@ -1,4 +1,4 @@
-package by.academy.homework.homework1_Part1;
+package by.academy.homework1;
 
 import java.util.Scanner;
 
