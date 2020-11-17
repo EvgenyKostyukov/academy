@@ -8,7 +8,7 @@ public class Task4 {
             if (x >= 1_000_000) {
                 break;
             }
-            System.out.println("Стпень двойки = " + i);
+            System.out.println("Степень двойки = " + i);
             System.out.println("Результат = " + x);
         }
     }

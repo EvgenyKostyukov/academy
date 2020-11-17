@@ -18,21 +18,3 @@ public class Task3 {
 }
 
 
-//        StringBuffer str3 = new StringBuffer();
-//        StringBuffer str4 = new StringBuffer();
-//
-//        str3.append("петя");
-//        str4.append("саша");
-//
-//        int l3 = str3.length();
-//        int l4 = str4.length();
-//
-//        System.out.println("Первое слово = " + str3 + " количество букв " + l3);
-//        System.out.println("Второе слово = " + str4 + " количество букв " + l4);
-//
-//        int d1 = l3 / 2;
-//        int d2 = l4 / 2;
-//
-//        str3.delete(d1, l3);
-//        str4.delete(0, d2);
-//        System.out.println(str3.toString() + str4.toString());

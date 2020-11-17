@@ -9,7 +9,6 @@ public class Task0 {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if (arr[i] - arr[j] == k) {
-                    //System.out.println(arr[i] + " " + arr[j]);
                     pairsCount++;
                 }
             }
@@ -28,10 +27,8 @@ public class Task0 {
         String[] arrItems = scanner.nextLine().split(" ");
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(arrItems[i]);
-            //System.out.println(arr[i]);
         }
         int result = pairs(k, arr);
-        //System.out.println(result);
         scanner.close();
     }
 }
