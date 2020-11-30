@@ -1,4 +1,4 @@
-package by.academy.homework_3_Validator;
+package by.academy.homework3.homework_3_Validator;
 
 import java.util.Scanner;
 

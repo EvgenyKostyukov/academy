@@ -1,4 +1,4 @@
-package by.academy.homework_3_Deal;
+package by.academy.homework3;
 
 public class Milk extends Product {
 
@@ -12,30 +12,6 @@ public class Milk extends Product {
         this.color = color;
         milkCount++;
         nonStaticMilkCount++;
-    }
-
-    public int getNonStaticMilkCount() {
-        return nonStaticMilkCount;
-    }
-
-    public void setNonStaticMilkCount(int nonStaticMilkCount) {
-        this.nonStaticMilkCount = nonStaticMilkCount;
-    }
-
-    public static int getMilkCount() {
-        return milkCount;
-    }
-
-    public static void setMilkCount(int milkCount) {
-        Milk.milkCount = milkCount;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
     }
 
     @Override

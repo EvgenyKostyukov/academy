@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task4_Deal {
     public static void main(String[] args) {
         int cardsPerPlayer = 5;
-        int players = 0;
+        int players = 3;
         String[] suits = {
                 "Пик", "Бубен", "Черв", "Треф"
         };
@@ -14,27 +14,28 @@ public class Task4_Deal {
                 "Валет", "Королева", "Король", "Туз"
         };
         int n = suits.length * rank.length;
-        for (; ; ) {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Введите количество игроков: ");
-            if (sc.hasNextInt()) {
-                players = sc.nextInt();
-                if (cardsPerPlayer * players <= n) {
-                    break;
-                } else {
-                    if (players == 0) {
-                        System.out.println("Игра прекращена.");
-                        break;
-                    } else if (players < 0) {
-                        System.out.println("Число игроков не может быть меньше 0");
-                    } else {
-                        System.out.println("Слишком много игроков!");
-                    }
-                }
-            } else {
-                System.out.println("Вы ввели не число, или Ваше число слишком большое!");
-            }
-        }
+
+//        for (; ; ) {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Введите количество игроков: ");
+//            if (sc.hasNextInt()) {
+//                players = sc.nextInt();
+//                if (cardsPerPlayer * players <= n) {
+//                    break;
+//                } else {
+//                    if (players == 0) {
+//                        System.out.println("Игра прекращена.");
+//                        break;
+//                    } else if (players < 0) {
+//                        System.out.println("Число игроков не может быть меньше 0");
+//                    } else {
+//                        System.out.println("Слишком много игроков!");
+//                    }
+//                }
+//            } else {
+//                System.out.println("Вы ввели не число, или Ваше число слишком большое!");
+//            }
+//        }
         String[] deck = new String[n];
         for (int i = 0; i < rank.length; i++) {
             for (int j = 0; j < suits.length; j++) {

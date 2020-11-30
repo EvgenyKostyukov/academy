@@ -1,4 +1,4 @@
-package by.academy.homework_3_Deal;
+package by.academy.homework3;
 
 import java.io.Serializable;
 
@@ -10,10 +10,6 @@ public abstract class Product implements Serializable {
     protected String type;
     protected String producerName;
     protected int quantity;
-
-    public Product() {
-        super();
-    }
 
     public Product(double price, String type, String producerName, int quantity) {
         super();
@@ -41,24 +37,12 @@ public abstract class Product implements Serializable {
         return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getProducerName() {
         return producerName;
     }
 
-    public void setProducerName(String producerName) {
-        this.producerName = producerName;
-    }
-
     public int getQuantity() {
         return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
     }
 
     @Override

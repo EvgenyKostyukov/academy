@@ -1,8 +1,8 @@
-package by.academy.homework_3_Deal;
+package by.academy.homework3;
 
-public class Meat extends Product {
+public class Beef extends Product {
 
-    public Meat(double price, String type, String producerName, int quantity) {
+    public Beef(double price, String type, String producerName, int quantity) {
         super(price, type, producerName, quantity);
     }
 

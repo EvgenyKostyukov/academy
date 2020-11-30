@@ -2,7 +2,7 @@
 
 package by.academy.homework1;
 
-public class Cat {
+public class    Cat {
 
     private int age;
     private double money;

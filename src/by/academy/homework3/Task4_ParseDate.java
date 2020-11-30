@@ -1,4 +1,4 @@
-package by.academy.homework_3_Deal;
+package by.academy.homework3;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
