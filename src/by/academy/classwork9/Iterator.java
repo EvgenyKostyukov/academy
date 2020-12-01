@@ -2,16 +2,16 @@ package by.academy.classwork9;
 
 import java.util.Iterator;
 
-public class CustomIterator<T> implements Iterator {
+public class Iterator<T> implements java.util.Iterator {
 
     private T[] array;
     private int index;
 
-    public CustomIterator() {
+    public Iterator() {
         super();
     }
 
-    public CustomIterator(T[] array) {
+    public Iterator(T[] array) {
         this.array = array;
     }
 
