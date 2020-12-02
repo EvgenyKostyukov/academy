@@ -2,7 +2,7 @@ package by.academy.homework4.Task2;
 
 public class Task2<T> {
 
-    public final static int SIZE_ARR = 2;
+    public final static int SIZE_ARR = 10;
     private int sizeArray;
     T[] myArray;
 
