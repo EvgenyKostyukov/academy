@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner sumBuy = new Scanner(System.in);
-        System.out.println("Введите сумму покупки в рублях: ");
+        System.out.println("Введите сумму покупки в рублях: "); //
         int sum = sumBuy.nextInt();
         System.out.println("Введите ваш возраст: ");
         int age = sumBuy.nextInt();

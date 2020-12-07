@@ -1,5 +1,5 @@
 package by.academy.homework2;
-
+//
 import java.io.IOException;
 import java.util.Scanner;
 

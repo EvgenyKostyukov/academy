@@ -1,5 +1,5 @@
 package by.academy.homework3;
-
+//
 public class Deal implements DealInterface {
 
     public final static int DEFAULT_PRODUCT_SIZE = 2;
