@@ -18,10 +18,10 @@ public class DateDemo {
         System.out.println("Year is leap? " + year.isLeapYear(year.getYear()));
 
         Date.Month month = date.new Month();
-        month.setMonth("05");
+        month.setMonth("10");
 
         Date.Day day = date.new Day();
-        day.setDay("15");
+        day.setDay("20");
 
         String firstDate = day.getDay() + "-" + month.getMonth() + "-" + year.getYear();
         date.isValid(firstDate);
@@ -46,13 +46,13 @@ public class DateDemo {
         scanner.close();
         System.out.println("----------------------");
 
-        Date anotherDate = new Date("25-11-2020");
-        Date.Year anotherYear = anotherDate.new Year();
-        Date.Month anotherMonth = anotherDate.new Month();
-        Date.Day anotherDay = anotherDate.new Day();
+//        Date anotherDate = new Date("25-12-2020");
+//        Date.Year anotherYear = anotherDate.new Year();
+//        Date.Month anotherMonth = anotherDate.new Month();
+//        Date.Day anotherDay = anotherDate.new Day();
 
-        Date.DateEnum dayOfWeek = DateEnum.FRIDAY;
-        System.out.println(dayOfWeek.getname());
-        System.out.println(Date.DateEnum.THURSDAY);
+//        Date.DateEnum dayOfWeek = DateEnum.FRIDAY;
+//        System.out.println(dayOfWeek.getname());
+//        System.out.println(Date.DateEnum.THURSDAY);
     }
 }

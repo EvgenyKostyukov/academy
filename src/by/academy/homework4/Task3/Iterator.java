@@ -1,7 +1,5 @@
 package by.academy.homework4.Task3;
 
-import java.util.Iterator;
-
 public class Iterator<T> implements java.util.Iterator<T> {
 
     private T[] array;
