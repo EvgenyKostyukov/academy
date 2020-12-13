@@ -1,7 +1,6 @@
 package by.academy.homework5;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 
 public class Task4 {

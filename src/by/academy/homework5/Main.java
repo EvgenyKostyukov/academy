@@ -22,17 +22,19 @@ public class Main {
         for (int i = 0; i < M; i++) {
             arrayList.get((int) (Math.random() * (N - 1)));
         }
+        System.out.print("Time 1 - ");
         System.out.println(System.currentTimeMillis() - startTime);
 
         startTime = System.currentTimeMillis();
         for (int i = 0; i < M; i++) {
             linkedList.get((int) (Math.random() * (N - 1)));
         }
+        System.out.print("Time 2 - ");
         System.out.println(System.currentTimeMillis() - startTime);
     }
 
     //Task5
-    void buildDictionaryWithMap(String text) {
+    static void buildDictionaryWithMap(String text) {
         text = text.toLowerCase();
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < text.length(); i++) {
@@ -48,6 +50,32 @@ public class Main {
         for (Map.Entry<Character, Integer> entry : entries) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+    }
+
+    public static void main(String[] args) {
+
+        //Task1
+        List<String> list = new ArrayList<>();
+        list.add("3");
+        list.add("3");
+        list.add("2");
+        list.add("4");
+        list.add("4");
+        System.out.println(removeDuplicates(list));
+
+        //Task2
+        compare2Lists();
+
+        //Task3
+        String[][] array = new String[][]{{"11", "12"}, {"31", "42", "53", "64", "75"}, {"81", "92"},
+                {"109", "234", "3234", "4234", "52",}};
+        Task3<?> arrayIterator = new Task3(array);
+        while (arrayIterator.hasNext()) {
+            System.out.print(arrayIterator.next() + ", ");
+        }
+
+        //Task5
+        buildDictionaryWithMap("Привет пока ");
     }
 }
 

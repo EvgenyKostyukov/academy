@@ -2,11 +2,11 @@ package by.academy.homework5;
 
     import java.util.Iterator;
 
-    public class Task3MyIterator<T> implements Iterator<T> {
+    public class Task3<T> implements Iterator<T> {
         private T[][] array;
         private int i, j;
 
-        public Task3MyIterator(T[][] array) {
+        public Task3(T[][] array) {
             this.array = array;
         }
 
