@@ -15,7 +15,7 @@ public class Task1 {
         Predicate<String> pred2 = s -> !s.isEmpty();
         System.out.println(pred2.test(""));
         System.out.println(pred2.test("asd"));
-//        System.out.println(pred2.test(null));
+//        System.out.println(pred2.test(null));12334rf34345345
 
         System.out.println(pred.and(pred2).test("dsff"));
 
